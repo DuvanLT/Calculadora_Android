@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_marginTop="10sp"
+        android:textColor="@color/black"
         android:layout_marginEnd="@android:dimen/app_icon_size"
         android:textSize="32sp" />
     <TextView
