@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:2:1-26:12
-INJECTED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Manci\.gradle\caches\transforms-4\00601f152ae7ac603725cf8fda28776d\transformed\material-1.10.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Manci\.gradle\caches\transforms-4\240feb6a4c564727fdb75a5be0ccfc97\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Users\Manci\.gradle\caches\transforms-4\4c4b4af4bfe24a0eb98cc8bd67edc785\transformed\appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
@@ -56,8 +56,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] C:\Users\Manci\.
 	xmlns:android
 		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:5:5-24:19
-INJECTED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:5:5-24:19
+ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:5:5-23:19
+INJECTED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Manci\.gradle\caches\transforms-4\00601f152ae7ac603725cf8fda28776d\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.10.0] C:\Users\Manci\.gradle\caches\transforms-4\00601f152ae7ac603725cf8fda28776d\transformed\material-1.10.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Manci\.gradle\caches\transforms-4\240feb6a4c564727fdb75a5be0ccfc97\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -79,39 +79,37 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ma
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Manci\.gradle\caches\transforms-4\adeabfc4125a4f51f454ce2fa5810783\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:11:9-35
 	android:label
 		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:10:9-41
 	android:fullBackupContent
 		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:8:9-54
-	android:roundIcon
-		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:11:9-54
 	tools:targetApi
-		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:14:9-29
+		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:13:9-29
 	android:icon
 		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:9:9-43
 	android:allowBackup
 		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:13:9-49
+		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:12:9-49
 	android:dataExtractionRules
 		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:7:9-65
 activity#code.calculadora.MainActivity
-ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:15:9-23:20
+ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:14:9-22:20
 	android:exported
-		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:17:13-36
+		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:15:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:18:13-22:29
+ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:19:17-69
+ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:19:25-66
+		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:21:17-77
+ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml:20:27-74
 uses-sdk
 INJECTED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Manci\AndroidStudioProjects\Calculadora_Android\Calculadora_AndroidStudio-master\app\src\main\AndroidManifest.xml

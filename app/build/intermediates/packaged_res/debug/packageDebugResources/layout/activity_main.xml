@@ -15,13 +15,15 @@
         android:textColor="@color/black"
         android:layout_marginEnd="@android:dimen/app_icon_size"
         android:textSize="32sp" />
-    <TextView
+    <EditText
         android:id="@+id/resultado"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="180sp"
         android:layout_alignParentEnd="true"
         android:hint="0"
+        android:background="@null"
+        android:inputType="number"
         android:layout_marginEnd="@android:dimen/app_icon_size"
         android:textColor="@color/white"
         android:textSize="40sp" />

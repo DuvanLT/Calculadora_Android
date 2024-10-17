@@ -37,7 +37,8 @@ id tres
 id uno
 layout activity_main
 mipmap ic_launcher
-mipmap ic_launcher_round
+mipmap ic_launcher_adaptive_back
+mipmap ic_launcher_adaptive_fore
 string app_name
 style Base.Theme.Calculadora
 style Theme.Calculadora

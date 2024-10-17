@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -49,8 +50,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if(view.getId() == R.id.eliminar){
-            opr.setValor(opr.getValor().substring(0,opr.getValor().length() - 1));
-            resultado.setText(opr.getValor());
+            try {
+                opr.setValor(opr.getValor().substring(0,opr.getValor().length() - 1));
+                resultado.setText(opr.getValor());
+            }catch (Exception e){
+                Toast.makeText(this, "No hay expresion a eliminar", Toast.LENGTH_SHORT).show();
+            }
+
         }
 
         if (view.getId() == R.id.parentesis) {
@@ -65,12 +71,28 @@ public class MainActivity extends AppCompatActivity {
         resultado.setText(opr.getValor());
 
         if(view.getId() == R.id.igual){
-            double operado =  new ExpressionBuilder(opr.getValor()).build().evaluate();
-            String v = String.valueOf(operado);
-            resultado.setText(v);
-            last.setText(opr.getValor() + "=" + v);
+            try {
+            String valor = opr.getValor();
+            double operado = new ExpressionBuilder(valor).build().evaluate();
+
+            if(valor.contains("/") || valor.contains(".")){
+                String decimal = String.valueOf(operado);
+                resultado.setText(decimal);
+                last.setText(valor + "=" + decimal);
+            } else {
+                int entero = (int) operado;
+                resultado.setText(String.valueOf(entero));
+                last.setText(valor + "=" + entero);
+            }
+        }catch (Exception e){
+            Toast.makeText(this, "Formato invalido", Toast.LENGTH_SHORT).show();
+        }
+
+        }
+
+
+
+
         }
 
     }
-
-}
