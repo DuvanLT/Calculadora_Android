@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "code.calculadora.app-mergeDebugResources-29:/values-v18/values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Manci\\.gradle\\caches\\transforms-4\\27eae03ad5f0ce559b975cb126674c84\\transformed\\appcompat-1.6.1\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}
